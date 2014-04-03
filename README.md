@@ -1,3 +1,5 @@
+![](http://assets.brand.ubc.ca/signatures/2_full_signatures/2_grey5415/rgb/s2g5415.png)
+
 # Equipment Management System
 The Equipment Management System is a Drupal 6 Module created with Features.
 https://drupal.org/project/features
