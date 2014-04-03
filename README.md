@@ -62,3 +62,6 @@ https://drupal.org/project/features
 - Chaos tools
 - Job Scheduler
 - Token
+
+# License
+GNU GENERAL PUBLIC LICENSE Version 2
