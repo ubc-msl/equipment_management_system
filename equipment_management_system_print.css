@@ -1,0 +1,25 @@
+/*============================================================================
+EQUIPMENT MANAGEMENT SYSTEM - PRINT STYLES
+==============================================================================*/
+.view-equipment-management a {
+	text-decoration: none !important;
+}
+
+.view-id-equipment_management .view-header,
+.view-id-equipment_management #equip_description,
+.view-equipment-management #reset-filters{
+	display:none;
+}
+
+.view-equipment-management table {
+	width:100%;
+}
+
+.view-id-equipment_management .views-field-field-equipment-location-value,
+.view-id-equipment_management .views-field-field-equipment-access-value {
+    width:10%;
+}
+
+.view-id-equipment_management .views-field-field-equipment-owner-value {
+    width:20%;
+}

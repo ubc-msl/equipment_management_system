@@ -230,3 +230,31 @@ Pull them out to the right of the list of fields. */
 .node-type-equipment .content .field-field-equipment-status {
 	margin-top:-25px;
 }
+
+/*============================================================================
+EQUIPMENT MANAGEMENT SYSTEM - PRINT AND PDF PREVIEW 
+https://drupal.org/project/print
+==============================================================================*/
+
+.print-content .view-equipment-management a {
+    text-decoration: none !important;
+}
+
+.print-content .view-id-equipment_management .view-header,
+.print-content .view-id-equipment_management #equip_description,
+.print-content .view-equipment-management #reset-filters{
+    display:none;
+}
+
+.print-content .view-equipment-management table {
+    width:100%;
+}
+
+.print-content .view-id-equipment_management .views-field-field-equipment-location-value,
+.print-content .view-id-equipment_management .views-field-field-equipment-access-value {
+    width:10%;
+}
+
+.print-content .view-id-equipment_management .views-field-field-equipment-owner-value {
+    width:20%;
+}

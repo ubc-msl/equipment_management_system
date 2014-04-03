@@ -7,3 +7,4 @@ include_once('equipment_management_system.features.inc');
  * Adds CSS.
  */
 drupal_add_css(drupal_get_path('module', 'equipment_management_system') .'/equipment_management_system.css');
+drupal_add_css(drupal_get_path('module', 'equipment_management_system') .'/equipment_management_system_print.css', 'module', 'print');
