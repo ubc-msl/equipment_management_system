@@ -32,7 +32,7 @@ https://drupal.org/project/features
 - Drupal 6
 - Minimum 940px width for lists to be displayed properly.
   
-### Drupal 6 Module Dependancies
+### Drupal 6 Module Dependencies
 - Administer Users by Role
 - Autocomplete Widgets
 - Conditional Fields
