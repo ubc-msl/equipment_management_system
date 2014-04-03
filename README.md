@@ -1,4 +1,4 @@
-equipment-management-system
+Equipment Management System
 ===========================
 
-Equipment Management System Module for Drupal 6
+This is an Equipment Management System Module for Drupal 6
