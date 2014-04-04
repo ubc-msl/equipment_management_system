@@ -74,8 +74,13 @@ function equipment_management_system_feeds_importer_default() {
             'unique' => 1,
           ),
           8 => array(
-            'source' => 'Access? (Shared, Permission, or Restricted)',
+            'source' => 'Access',
             'target' => 'field_equipment_access',
+            'unique' => FALSE,
+          ),
+          9 => array(
+            'source' => 'Status',
+            'target' => 'field_equipment_status',
             'unique' => FALSE,
           ),
         ),

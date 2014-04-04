@@ -13,6 +13,14 @@ function equipment_management_system_content_default_fields() {
     'display_settings' => array(
       'weight' => '-2',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -25,14 +33,6 @@ function equipment_management_system_content_default_fields() {
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -77,6 +77,16 @@ shared|<span class="equip_access shared">Shared</span>',
     'field_name' => 'field_equipment_attachments',
     'type_name' => 'equipment',
     'display_settings' => array(
+      'weight' => '7',
+      'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'above',
         'exclude' => 0,
@@ -90,14 +100,6 @@ shared|<span class="equip_access shared">Shared</span>',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -140,6 +142,14 @@ shared|<span class="equip_access shared">Shared</span>',
     'display_settings' => array(
       'weight' => '-1',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -152,14 +162,6 @@ shared|<span class="equip_access shared">Shared</span>',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -202,6 +204,14 @@ shared|<span class="equip_access shared">Shared</span>',
     'display_settings' => array(
       'weight' => '1',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -214,14 +224,6 @@ shared|<span class="equip_access shared">Shared</span>',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -277,6 +279,14 @@ shared|<span class="equip_access shared">Shared</span>',
     'display_settings' => array(
       'weight' => '-4',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -289,14 +299,6 @@ shared|<span class="equip_access shared">Shared</span>',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -340,8 +342,16 @@ MSL 359B',
     'field_name' => 'field_equipment_manufacturer',
     'type_name' => 'equipment',
     'display_settings' => array(
-      'weight' => '2',
+      'weight' => '3',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -354,14 +364,6 @@ MSL 359B',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -402,8 +404,16 @@ MSL 359B',
     'field_name' => 'field_equipment_model',
     'type_name' => 'equipment',
     'display_settings' => array(
-      'weight' => '3',
+      'weight' => '2',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -416,14 +426,6 @@ MSL 359B',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -476,6 +478,14 @@ MSL 359B',
     'display_settings' => array(
       'weight' => '-3',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -488,14 +498,6 @@ MSL 359B',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -568,6 +570,14 @@ withers|<a href="/internal/contact-lists/list/withers-lab" target="_blank">Withe
     'display_settings' => array(
       'weight' => '5',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -580,14 +590,6 @@ withers|<a href="/internal/contact-lists/list/withers-lab" target="_blank">Withe
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -630,6 +632,14 @@ withers|<a href="/internal/contact-lists/list/withers-lab" target="_blank">Withe
     'display_settings' => array(
       'weight' => 0,
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -642,14 +652,6 @@ withers|<a href="/internal/contact-lists/list/withers-lab" target="_blank">Withe
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -695,6 +697,14 @@ decommissioned|<span class="equip_status decommissioned">Decommissioned</span>',
     'display_settings' => array(
       'weight' => '4',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -707,14 +717,6 @@ decommissioned|<span class="equip_status decommissioned">Decommissioned</span>',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
@@ -761,6 +763,14 @@ decommissioned|<span class="equip_status decommissioned">Decommissioned</span>',
     'display_settings' => array(
       'weight' => '6',
       'parent' => '',
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
       'label' => array(
         'format' => 'inline',
       ),
@@ -773,14 +783,6 @@ decommissioned|<span class="equip_status decommissioned">Decommissioned</span>',
         'exclude' => 0,
       ),
       '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
