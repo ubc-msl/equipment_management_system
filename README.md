@@ -31,6 +31,8 @@ https://drupal.org/project/features
 ## Requirements
 - Drupal 6
 - Minimum 940px width for lists to be displayed properly.
+- Patch to CCK content.module. CCK fields made private by Content Access permissions do not get indexed by the search. Thus all the equipment fields if you set them to authenticated access as they are by default to not get indexed and do not show up in your search.  There is a patch for the CCK content.module file as described here to allow our search to index the fields: https://drupal.org/node/510744 
+Patch: https://drupal.org/files/issues/content_module_index_private_fields-510744-15.patch
   
 ### Drupal 6 Module Dependencies
 - Administer Users by Role
