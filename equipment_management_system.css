@@ -220,6 +220,7 @@ Pull them out to the right of the list of fields. */
 .node-type-equipment .content .field-field-equipment-status,
 .node-type-equipment .content .field-field-equipment-access {
 	float: right;
+    clear: right;
 	text-align: right;
 	margin: 20px;	
 	min-width: 200px;	
