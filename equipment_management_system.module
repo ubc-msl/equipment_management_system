@@ -8,3 +8,13 @@ include_once('equipment_management_system.features.inc');
  */
 drupal_add_css(drupal_get_path('module', 'equipment_management_system') .'/equipment_management_system.css');
 drupal_add_css(drupal_get_path('module', 'equipment_management_system') .'/equipment_management_system_print.css', 'module', 'print');
+
+/**
+ * Implementation of hook_form_alter().
+ * Changed the Apply button on the exposed filters to say Filter instead.
+ */
+function equipment_management_system_form_alter(&$form, $form_state, $form_id) {
+  if($form_state['view']->name == 'equipment_management') {
+    $form['submit']['#value'] = t('Filter');
+  }
+}
