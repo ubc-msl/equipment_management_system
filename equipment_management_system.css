@@ -76,7 +76,7 @@ EQUIPMENT MANAGEMENT SYSTEM
     margin:10px 0;
 }
 
-/* Filter field and view cell positioning */
+/* Equipment Management - Default Filter field and view cell positioning */
 .view-id-equipment_management .views-exposed-form .views-exposed-widget {
 	padding-right:5px;
     height:48px;
@@ -89,7 +89,6 @@ EQUIPMENT MANAGEMENT SYSTEM
 .view-id-equipment_management .views-exposed-form .views-exposed-widget option {
     height:24px;
 }
-
 .view-id-equipment_management .views-exposed-form input[type="text"],
 .view-id-equipment_management .views-exposed-form .form-select {
     width: 145px;
@@ -98,12 +97,8 @@ EQUIPMENT MANAGEMENT SYSTEM
 .view-id-equipment_management .views-field-title{
 	width:280px;
 }
-.view-id-equipment-management-decommissioned .views-exposed-form #edit-description,
-.view-id-equipment-management-decommissioned .views-field-title {
-	width:250px;
-}
-.view-id-equipment_management .views-exposed-form #edit-model,
-.view-id-equipment_management .views-field-field-equipment-model-value {
+.view-id-equipment_management .views-exposed-form #edit-field-equipment-manufacturer-value,
+.view-id-equipment_management .views-field-field-equipment-manufacturer-value {
 	width:150px;
 }
 .view-id-equipment_management .views-exposed-form #edit-location,
@@ -117,6 +112,7 @@ EQUIPMENT MANAGEMENT SYSTEM
 .view-id-equipment_management .views-exposed-form #edit-access,
 .view-id-equipment_management .views-field-field-equipment-access-value {
 	width:105px;
+    text-align: center;
 }
 .view-id-equipment_management .views-exposed-form #edit-access {
     padding:2px;
@@ -126,8 +122,31 @@ EQUIPMENT MANAGEMENT SYSTEM
 	width:90px;
 }
 
+/* Equipment Management Data Export View - Filter field and view cell positioning */
+.view-id-equipment-management-data-export .views-exposed-form #edit-description,
+.view-id-equipment-management-data-export .views-field-title {
+    width:210px;
+}
+.view-id-equipment-management-data-export .views-exposed-form .views-exposed-widget #edit-field-equipment-model-value,
+.view-id-equipment-management-data-export .views-field-field-equipment-model-value {
+    width:110px;
+}
+.view-id-equipment-management-data-export .views-exposed-form #edit-field-equipment-manufacturer-value,
+.view-id-equipment-management-data-export .views-field-field-equipment-manufacturer-value {
+    width:110px;
+}
+.view-id-equipment-management-data-export .views-exposed-form #edit-owner,
+.view-id-equipment-management-data-export .views-field-field-equipment-owner-value {
+    width:120px;
+}
+
+/* Equipment Management Decommissioned Equipment View - Filter field and view cell positioning */
+.view-id-equipment-management-decommissioned .views-exposed-form #edit-description,
+.view-id-equipment-management-decommissioned .views-field-title {
+    width:250px;
+}
+
 /* Filter Apply button */
-/*media all*/
 .view-id-equipment_management .views-exposed-form .views-exposed-widget .form-submit,
 .view-id-equipment-management-decommissioned .views-exposed-form .views-exposed-widget .form-submit {
     margin:0px;
