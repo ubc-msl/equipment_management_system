@@ -79,7 +79,17 @@ EQUIPMENT MANAGEMENT SYSTEM
 /* Filter field and view cell positioning */
 .view-id-equipment_management .views-exposed-form .views-exposed-widget {
 	padding-right:5px;
+    height:48px;
+    vertical-align: bottom;
 }
+.view-id-equipment_management .views-exposed-form .views-exposed-widget input {
+    height:18px;
+}
+.view-id-equipment_management .views-exposed-form .views-exposed-widget select,
+.view-id-equipment_management .views-exposed-form .views-exposed-widget option {
+    height:24px;
+}
+
 .view-id-equipment_management .views-exposed-form input[type="text"],
 .view-id-equipment_management .views-exposed-form .form-select {
     width: 145px;
@@ -117,19 +127,33 @@ EQUIPMENT MANAGEMENT SYSTEM
 }
 
 /* Filter Apply button */
-.view-id-equipment_management .views-submit-button {
-	float:left;
-	padding-top:10px;
-	margin-right:5px;
+/*media all*/
+.view-id-equipment_management .views-exposed-form .views-exposed-widget .form-submit,
+.view-id-equipment-management-decommissioned .views-exposed-form .views-exposed-widget .form-submit {
+    margin:0px;
+    height:24px;
+}
+.view-id-equipment_management .views-exposed-form .views-submit-button,
+.view-id-equipment-management-decommissioned .views-exposed-form .views-submit-button {	
+	padding-top:0.5em;
+	margin-top:-31px;
+    height:30px;    
+    vertical-align: bottom;
+    float:right;
+}
+.view-id-equipment-management-decommissioned .views-exposed-form .views-submit-button {
+    margin-right: 140px;    
 }
 
 /* Reset filters button */
 .view-id-equipment_management #reset-filters {
     float: right;
-	margin: 27px 0 0 0;
+	margin: 28px 60px 0 0;
+    height:24px;
+
 }
-.view-id-equipment-management-decommissioned #reset-filters{
-	margin: 27px 140px 0 0;	
+.view-id-equipment-management-decommissioned #reset-filters{	
+    margin: 28px 200px 0 0;
 }
 
 /* View table headers */
