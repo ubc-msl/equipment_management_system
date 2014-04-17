@@ -72,6 +72,11 @@ EQUIPMENT MANAGEMENT SYSTEM
 }
 
 /* Add equipment button only viewable by Equipment Managers */
+.view-id-equipment_management #equip_extra_buttons {
+    text-align: center;
+    border: 1px dashed #cccccc;
+    background: #fbfbfb;
+}
 .view-id-equipment_management #add-equip {
     margin:10px 0;
 }
