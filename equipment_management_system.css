@@ -160,24 +160,20 @@ EQUIPMENT MANAGEMENT SYSTEM
 .view-id-equipment_management .views-exposed-form .views-submit-button,
 .view-id-equipment-management-decommissioned .views-exposed-form .views-submit-button {	
 	padding-top:0.5em;
-	margin-top:-31px;
+	margin-top: 20px;
     height:30px;    
     vertical-align: bottom;
-    float:right;
-}
-.view-id-equipment-management-decommissioned .views-exposed-form .views-submit-button {
-    margin-right: 140px;    
 }
 
 /* Reset filters button */
 .view-id-equipment_management #reset-filters {
     float: right;
-	margin: 28px 60px 0 0;
-    height:24px;
+	margin: 32px 0 0 0;
+    height: 24px;
 
 }
 .view-id-equipment-management-decommissioned #reset-filters{	
-    margin: 28px 200px 0 0;
+    margin: 28px 140px 0 0;
 }
 
 /* View table headers */
@@ -189,6 +185,16 @@ EQUIPMENT MANAGEMENT SYSTEM
 /* View table mouse hover row highlight */
 .view-id-equipment_management table.views-table tbody tr:hover {
     background-color: #fffedf;
+}
+
+/* No Equipment Message */
+.view-id-equipment_management #no_equip {
+    padding-top:10px;
+    vertical-align: middle;
+    text-align: center;
+}
+.view-id-equipment_management #no_equip h2 {
+    color:#B40000;
 }
 
 /* Hide the print button at the bottom of all views.  
@@ -240,7 +246,7 @@ Pull them out to the right of the list of fields. */
     border: 1px solid;
     font-size: 12px;
     width: auto;
-    min-width: 75px;
+    min-width: 100px;
     padding: 0 5px;
     display: inline-block;
     text-align: center;

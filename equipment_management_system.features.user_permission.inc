@@ -84,14 +84,6 @@ function equipment_management_system_user_default_permissions() {
     ),
   );
 
-  // Exported permission: clear node feeds
-  $permissions['clear node feeds'] = array(
-    'name' => 'clear node feeds',
-    'roles' => array(
-      '0' => 'Administrator',
-    ),
-  );
-
   // Exported permission: create equipment content
   $permissions['create equipment content'] = array(
     'name' => 'create equipment content',

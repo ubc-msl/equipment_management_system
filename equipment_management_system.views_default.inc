@@ -481,14 +481,14 @@ Click the description of the equipment to view the full details including any ma
     <input id="add-equip" class="form-submit" type="submit" value="+ Add Equipment">
 </form>
 <?php endif ?>
-<form action="/internal/research-support/equipment" style="width:100%">
-    <input id="reset-filters" class="form-submit" type="submit" value="Reset">
-</form>
+<a id="reset-filters" href="/internal/research-support/equipment">Reset</a>
 </div>');
   $handler->override_option('header_format', '3');
   $handler->override_option('header_empty', 1);
-  $handler->override_option('empty', '<h2 style="padding-top:40px;">Sorry, no equipment could be found.</h2>
-<h3><a href="/internal/research-support/equipment">Clear all the filters and try again.</a></h3>');
+  $handler->override_option('empty', '<div id="no_equip">
+<h2>Sorry, no equipment could be found.</h2>
+<h3><a href="/internal/research-support/equipment">Clear all filters and try again.</a></h3>
+</div>');
   $handler->override_option('empty_format', '1');
   $handler->override_option('items_per_page', 100);
   $handler->override_option('use_pager', '1');
@@ -1327,7 +1327,7 @@ Click the description of the equipment to view the full details including any ma
 
 <div id="equip_description">
 <p id="equip_export_intro">
-This page is designed to export the equipment list for Print, PDF, and Excel.
+This page is designed to export the equipment list for <br /> Print, PDF, and Excel.
 </p>
 <p>
 Use the filters to narrow down the equipment list.  Clicking on the table headers will change the sorting.  When you are finished manipulating the list, click the Print, PDF, or Excel button:
@@ -1348,11 +1348,7 @@ Use the filters to narrow down the equipment list.  Clicking on the table header
   </a>    
 </div>
 </div>
-<form action="/internal/research-support/equipment-data-export" style="width:100%">
-    <input id="reset-filters" class="form-submit" type="submit" value="Reset">
-</form>');
-  $handler->override_option('empty', '<h2 style="padding-top:40px;">Sorry, no equipment could be found.</h2>
-<h3><a href="/internal/research-support/equipment-data-export">Clear all the filters and try again.</a></h3>');
+<a id="reset-filters" href="/internal/research-support/equipment-data-export">Reset</a>');
   $handler->override_option('items_per_page', 0);
   $handler->override_option('use_pager', '0');
   $handler->override_option('path', 'internal/research-support/equipment-data-export');
@@ -1769,11 +1765,7 @@ This page lists all of the large pieces of scientific equipment in the MSL that 
 The filter fields can help you narrow down the list of equipment. Clicking on the table headers will change the sorting.
 </p>
 </div>
-<form action="/internal/research-support/equipment-decommissioned" style="width:100%">
-    <input id="reset-filters" class="form-submit" type="submit" value="Reset">
-</form>');
-  $handler->override_option('empty', '<h2 style="padding-top:40px;">Sorry, no equipment could be found.</h2>
-<h3><a href="/internal/research-support/equipment-decommissioned">Clear all the filters and try again.</a></h3>');
+<a id="reset-filters" href="/internal/research-support/equipment-decommissioned">Reset</a>');
   $handler->override_option('items_per_page', 0);
   $handler->override_option('use_pager', '0');
   $handler->override_option('style_options', array(

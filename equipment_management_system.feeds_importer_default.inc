@@ -11,8 +11,8 @@ function equipment_management_system_feeds_importer_default() {
   $feeds_importer->api_version = 1;
   $feeds_importer->id = 'equipment_excel_import';
   $feeds_importer->config = array(
-    'name' => 'Equipment Excel Import',
-    'description' => 'Imports Equipment Data from Excel Sheets',
+    'name' => 'Equipment CSV Import',
+    'description' => 'Imports Equipment Data from CSV Sheets',
     'fetcher' => array(
       'plugin_key' => 'FeedsFileFetcher',
       'config' => array(
