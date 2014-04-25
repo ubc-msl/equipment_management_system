@@ -69,7 +69,7 @@ function equipment_management_system_views_default_views() {
         'target' => '',
         'help' => '',
         'trim' => 1,
-        'max_length' => '18',
+        'max_length' => '21',
         'word_boundary' => 1,
         'ellipsis' => 1,
         'html' => 0,
