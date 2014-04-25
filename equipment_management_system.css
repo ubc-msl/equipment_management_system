@@ -26,6 +26,40 @@ EQUIPMENT MANAGEMENT SYSTEM
 	background:url("/sites/all/modules/equipment_management_system/assets/images/equip_man_icon_decom.png") top left no-repeat; 	
 }
 
+/* Highlight the equipment status and access labels */
+#content-area .equip_status,
+#content-area .equip_access {
+    color: white;
+    border-radius: 5px;   
+    border: 1px solid;
+    font-size: 12px;
+    width: auto;
+    min-width: 100px;
+    padding: 0 5px;
+    display: inline-block;
+    text-align: center;
+}
+#content-area .decommissioned,
+#content-area .restricted,
+#content-area .restricted:hover {
+    border-color: #FBBDBD;
+    color: #B40000;
+    background: #FEE0E0;
+}
+#content-area .permission,
+#content-area .permission:hover {    
+    border-color: #e8c863;
+    color: #9a7400;
+    background: #fff2c9;
+}
+#content-area .in_service,
+#content-area .shared,
+#content-area .shared:hover {    
+    border-color: #6FCF85;
+    color: #007C1D;
+    background: #C7F9D2;
+}
+
 /* View header table theming */
 .view-id-equipment_management .view-header table,
 .view-id-equipment_management .view-header tbody,
@@ -239,52 +273,21 @@ EQUIPMENT MANAGEMENT SYSTEM - NODE VIEW (DETAILS)
 
 /* Highlight the equipment status and access fields.  
 Pull them out to the right of the list of fields. */
-#content-area .equip_status,
-#content-area .equip_access {
-    color: white;
-    border-radius: 5px;   
-    border: 1px solid;
-    font-size: 12px;
-    width: auto;
-    min-width: 100px;
-    padding: 0 5px;
-    display: inline-block;
-    text-align: center;
-}
-#content-area .decommissioned,
-#content-area .restricted,
-#content-area .restricted:hover {
-    border-color: #FBBDBD;
-    color: #B40000;
-    background: #FEE0E0;
-}
-#content-area .permission,
-#content-area .permission:hover {    
-    border-color: #e8c863;
-    color: #9a7400;
-    background: #fff2c9;
-}
-#content-area .in_service,
-#content-area .shared,
-#content-area .shared:hover {    
-    border-color: #6FCF85;
-    color: #007C1D;
-    background: #C7F9D2;
-}
-.node-type-equipment .content .field-field-equipment-status,
-.node-type-equipment .content .field-field-equipment-access {
-	float: right;
+.node-type-equipment .content .field-field-equipment-access,
+.node-type-equipment .content .field-field-equipment-status {
+    float: right;
     clear: right;
-	text-align: right;
-	margin: 20px;	
-	min-width: 200px;	
+    text-align: right;
+    margin: 20px;   
+    min-width: 200px;   
 }
 .node-type-equipment .content .field-field-equipment-access {
-	margin-top:-40px;
+    margin-top:-40px;
 }
 .node-type-equipment .content .field-field-equipment-status {
-	margin-top:-25px;
+    margin-top:-25px;
 }
+
 
 /*============================================================================
 EQUIPMENT MANAGEMENT SYSTEM - PRINT AND PDF PREVIEW 
