@@ -1334,12 +1334,12 @@ Use the filters to narrow down the equipment list.  Clicking on the table header
 </p>
 <div class="print_html">
     	<a class="print-page" title="Display a printer-friendly version of this page." onclick="window.open(this.href); return false" rel="nofollow" href="/print<?php echo str_replace(\'&\', \'&amp;\', $_SERVER[\'REQUEST_URI\']); ?>">
-        	<img title="Printer-friendly" src="/sites/all/modules/print/icons/print_icon.gif" alt="Printer-friendly" />
+        	<img class="print-icon" title="Printer-friendly" src="/sites/all/modules/print/icons/print_icon.gif" alt="Printer-friendly" />
         </a>
 </div>
 <div class="print_pdf">
    <a class="print-pdf" title="Display a PDF version of this page." rel="nofollow" href="/printpdf<?php echo str_replace(\'&\', \'&amp;\', $_SERVER[\'REQUEST_URI\']); ?>">
-    <img  title="PDF version" src="/sites/all/modules/print/icons/pdf_icon.gif" alt="PDF version" />
+    <img class="print-icon" title="PDF version" src="/sites/all/modules/print/icons/pdf_icon.gif" alt="PDF version" />
   </a>
 </div> 
 <div class="print_excel">

@@ -243,17 +243,16 @@ EQUIPMENT MANAGEMENT SYSTEM - DATA EXPORT
 
 /* Export Buttons */
 .view-id-equipment_management .print_html,
+.view-id-equipment_management .print_html a,
 .view-id-equipment_management .print_pdf,
-.view-id-equipment_management .print_excel {	
+.view-id-equipment_management .print_pdf a,
+.view-id-equipment_management .print_excel,
+.view-id-equipment_management .print_excel a {	
 	display:inline-block;
 	margin-left:0;
 	margin-right:1em;
 }
-.view-id-equipment_management .print_html a,
-.view-id-equipment_management .print_pdf a,
-.view-id-equipment_management .print_excel a {
-	background:none;
-}
+
 
 /*============================================================================
 EQUIPMENT MANAGEMENT SYSTEM - DECOMMISSIONED EQUIPMENT
