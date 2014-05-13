@@ -12,7 +12,7 @@ function equipment_management_system_feeds_importer_default() {
   $feeds_importer->id = 'equipment_excel_import';
   $feeds_importer->config = array(
     'name' => 'Equipment CSV Import',
-    'description' => 'Imports Equipment Data from CSV Sheets',
+    'description' => 'Imports Equipment Data from CSV Files',
     'fetcher' => array(
       'plugin_key' => 'FeedsFileFetcher',
       'config' => array(
@@ -30,7 +30,7 @@ function equipment_management_system_feeds_importer_default() {
       'plugin_key' => 'FeedsNodeProcessor',
       'config' => array(
         'content_type' => 'equipment',
-        'update_existing' => '1',
+        'update_existing' => '2',
         'expire' => '-1',
         'mappings' => array(
           0 => array(
