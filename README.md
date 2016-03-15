@@ -69,3 +69,7 @@ Patch: https://drupal.org/files/issues/content_module_index_private_fields-51074
 GNU GENERAL PUBLIC LICENSE Version 2
 
 http://www.gnu.org/licenses/gpl-2.0.html
+
+# Further Reading (MSL IT Login Required)
+
+https://techwiki.msl.ubc.ca/equipment_management
